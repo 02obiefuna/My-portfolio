@@ -4,11 +4,14 @@ nav {
   align-items: center;
   
 }
+
 .nav-links {
     margin: 20px;
     list-style: none;
     text-decoration: none;
     padding: auto;
+    display: flex;
+  justify-content: flex-end;
 }
 
 .nav-links li{
@@ -27,8 +30,13 @@ nav {
 }
 #hero-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 50px;
+}
+
+
+h1 {
+  margin-bottom: 40px;
 }
 button {
   background-color: red;
@@ -43,55 +51,67 @@ button {
   height: 243px;
 }
 #description {
-  width: 300px;
+  margin-right: 115px;
 }
 #oil {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  padding: 10px;
 }
 #Making {
-  padding: 20px;
+  padding: 25px;
   background-color: gold;
-  width: 418px;
+  margin: 0 20px 0 0;
   border-radius: 4px;
 }
 #Figma {
-  padding: 20px;
+  padding: 25px;
   background-color: gold;
-  width: 418px;
+  margin: 0 20px 0 0;
   border-radius: 4px;
 }
 #post-heading {
   display: flex;
-  justify-content: space-around;
-  width: 1060px;
+  justify-content: space-between;
   
 }
 #heading-parent {
   display: flex;
   justify-content: center;
 }
-#image {
+#images {
   display: flex;
   border-radius: 6px;
   justify-content: center;
+  margin-right: 18px;
+
+
 }
 img {
   padding: 20px;
   width: 246px;
   height: 180px;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 #Portraits {
   display: flex;
   border-radius: 6px;
   justify-content: center;
+  margin-right: 18px;
 }
 #illustration {
   display: flex;
   border-radius: 6px;
   justify-content: center;
+  margin-right: 18px;
+
 }
+
+
+#ada {
+  margin-bottom: 40px;
+}
+
 #para {
   width: 608px;
 
@@ -102,11 +122,21 @@ img {
 #footer {
   display: flex;
   justify-content: center;
+
 }
 .foot {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  size: 30px;
 }
 #foe {
-  justify-content: center;
+  text-align: center;
+}
+section {
+  padding: 0 146px 0 146px;
+}
+#line {
+  border-bottom: 1px solid gray;
+  margin-top: 15px;
+  margin-bottom: 31px;
+  gap: 35px ;
 }
