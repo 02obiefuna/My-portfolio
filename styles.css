@@ -125,7 +125,8 @@ img {
 
 }
 .foot {
-  size: 30px;
+  width: 50px;
+  height: 50px;
 }
 #foe {
   text-align: center;
@@ -137,5 +138,5 @@ section {
   border-bottom: 1px solid gray;
   margin-top: 15px;
   margin-bottom: 31px;
-  gap: 35px ;
+  gap: 35px 0;
 }
